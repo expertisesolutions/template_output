@@ -1,0 +1,18 @@
+
+- eo_composite_attach
+   check that the class of comp_obj is part of parent extensions
+
+- Eo2_Call_Stack
+   grow/shrink
+   per thread stack
+
+- cleanup EO2_VERSION specific code in eo.c and eo_private.c
+
+- m4 __attribute__ cleanup ??? don't remember what it means
+
+- Move the Op_Descs to be set using a function inside the class_constructor
+   check if it works ASIS on windows
+   if it does, do nothing
+
+- function name from pointer
+   dladdr backtrace ??
